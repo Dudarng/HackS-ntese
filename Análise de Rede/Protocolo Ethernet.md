@@ -1,15 +1,16 @@
-## Estrutura do protocolo ethernet 🌐
+# 🌐 Estrutura do Protocolo Ethernet 
 
-![Estrutura do protocolo ethernet](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/EstruturaEthernet.png)
+![Estrutura do Protocolo Ethernet](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/EstruturaEthernet.png)
 
+**Mac de Destino:** Endereço físico da placa de rede de destino
 
-**Mac de destino:** Contém o endereço físico da placa de rede de destino
+**Mac de Origem:** Endereço físico da placa de rede origem
 
-**Mac de Origem:** Contém o endereço físico da placa de rede origem
+**Tipo:** Código de identificação do protocolo (0800 = IP / 0806 = ARP)
 
-**Tipo:** Código de identifica o tipo de protocolo (0800 = IP / 0806 =ARP)
+**Payload:** Dados a serem transportados (outro protocolo), máximo de 1500 bytes.
 
-**Payload:** Contém os dados a serem transportados (outro protocolo), o tamanho máximo do payload ethernet é de 1500 bytes.
+## 🦈 Exemplo de Protocolo Ethernet com Wireshark
 
-### Exemplo de protocolo ethernet usando o Wireshark 🦈
-![Exemplo de protocolo ethernet usando o Wireshark](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/Ex%20Ethernet%20Wireshark.png)
+![Exemplo de Protocolo Ethernet com Wireshark](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/Ex%20Ethernet%20Wireshark.png)
+
