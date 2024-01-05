@@ -9,7 +9,7 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
 1. **[Introdução ao Pentest](https://github.com/Dudarng/HackS-ntese/tree/main/Introdução%20ao%20Pentest)** 🕵️‍♂️
    - Conceitos e princípios fundamentais em testes de penetração.
 
-2. **Análise de Rede** 🌐
+2. **[Análise de Rede](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
    - Técnicas e metodologias de análise de rede.
 
 3. **Script e Programação** 💻
