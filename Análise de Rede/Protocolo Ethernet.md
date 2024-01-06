@@ -20,8 +20,6 @@ encapsular o protocolo IP em redes locais.
 
 **Detalhes do Pacote Ethernet:**
 
-**Detalhes do Pacote Ethernet:**
-
 - **Destino:** Broadcast (endereço que indica todo segmento ethernet) 📢
 - **Origem:** 00:0c:29:76:43:e1 🔄
 - **Tipo (Type):** 0806 (indica que o protocolo ARP estará no payload) 📟
