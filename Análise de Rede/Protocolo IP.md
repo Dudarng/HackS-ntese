@@ -30,6 +30,13 @@ Para confiabilidade, associamos o protocolo IP ao TCP. Para velocidade, associam
   - `cat /etc/protocols`: Lista todos os códigos de protocolos
 - **Source:** Endereço IP de origem
 - **Destination:** Endereço IP de destino
+- **Header checksum:** Garante que o header IP esteja integro
+- **Source Address:** IP de origem (host cliente)
+- **Destination Address:** IP de destino (host servidor)
+- **Campo Options:** Não é obrigatório no nosso exemplo prático. Pode conter dados sobre roteadores de passagem obrigatória ou proibidos.
+
+No payload do protocolo IP, encontramos outro protocolo.
+No exemplo prático, o protocolo é o **TCP**.
 
 # Entendendo a Fragmentação de Pacotes 🌐
 
