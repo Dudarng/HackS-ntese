@@ -35,7 +35,9 @@ A4:5E:60:B8:C1:AF
 
 Para descobrir o fabricante:
 
-[Link para descobrir o fabricante](https://macvendors.com)
+[1° - Link para descobrir o fabricante](https://macvendors.com)
+
+[2° - Link para descobrir o fabricante](https://standards-oui.ieee.org/oui/oui.txt)
 
 ### Endereço Lógico (IP Address) 🌐
 
