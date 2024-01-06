@@ -89,6 +89,16 @@ Redes diferentes só se enxergam através do roteamento de rede, para isso preci
 
 `ipcalc` - Calcular quantidade de host na rede consultada
 
+**Conclusão: Comunicação na Rede**
+
+1. 🖥️ Rede com 2 computadores distintos (Macbook e Dell) com diferentes hardwares e softwares.
+2. 🌐 Comunicação viabilizada pela utilização do protocolo TCP/IP, compreendido por ambos os hosts.
+3. 🔄 Papéis definidos: Macbook atua como cliente, enquanto o Dell funciona como servidor de serviços web.
+4. 📡 Cada host possui um identificador único, o Mac Address (endereço físico), além de endereço IP e portas.
+5. 🌐 Para comunicação entre redes distintas, é essencial realizar roteamento, necessitando do endereço do gateway.
+6. 🛤️ Roteamento possibilita a interconexão eficiente entre diferentes redes, promovendo a comunicação fluida.
+
+
 ## Composição de um Protocolo de Rede 🔄
 
 A maioria dos protocolos de rede são compostos por um cabeçalho e uma área de dados.
@@ -121,6 +131,8 @@ O modelo TCP/IP é composto por 4 camadas e tornou-se uma simplificação do mod
 3. Internet
 4. Acesso a Rede
 
+Para que essa comunicação ocorra teremos vários protocolos envolvidos. (Ethernet,ARP, IP, TCP, HTTP).Cada protocolo atuando em uma camada específica.
+
 ### Exemplo de encapsulamento 📦
 
 Um ***frame*** ethernet contém um ***pacote*** IP que contém um ***segmento*** TCP que contém os ***dados*** com o protocolo http. (Um protocolo dentro de outro protocolo)
@@ -129,9 +141,3 @@ Um ***frame*** ethernet contém um ***pacote*** IP que contém um ***segmento***
 
 1. Wireshark (visualização gráfica)
 2. TCPdump (Linha de comando)
-
-ARP Reply é a resposta enviada pelo host que tem o IP requisitado, ao responder
-
-ao ARP Request o host envia seu endereço MAC
-
-O host que recebe a resposta armazena o IP e MAC por um tempo.
