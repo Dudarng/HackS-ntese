@@ -1,47 +1,47 @@
 # HackS-ntese 🕵️‍♂️💼
 
-### Visão Geral
+## Overview
 
-Bem-vindo ao meu repositório que documenta meus estudos em testes de penetração. Esta coleção está dividida em módulos distintos, cada um focado em um aspecto chave da área. Sinta-se à vontade para explorar e aprofundar seu entendimento em qualquer área específica.
+Welcome to my repository documenting my studies in penetration testing. This collection is divided into distinct modules, each focusing on a key aspect of the field. Feel free to explore and deepen your understanding in any specific area.
 
-### 🚀 Módulos
+## 🚀 Modules
 
-1. **[Introdução ao Pentest](https://github.com/Dudarng/HackS-ntese/tree/main/Introdução%20ao%20Pentest)** 🕵️‍♂️
-   - Conceitos e princípios fundamentais em testes de penetração.
+1. **[Introduction to Pentest](https://github.com/Dudarng/HackS-ntese/tree/main/Introdução%20ao%20Pentest)** 🕵️‍♂️
+   - Fundamental concepts and principles in penetration testing.
 
-2. **[Análise de Rede](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
-   - Técnicas e metodologias de análise de rede.
+2. **[Network Analysis](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
+   - Techniques and methodologies for network analysis.
 
-3. **Script e Programação** 💻
-   - Scripting e programação para automação no campo de testes de penetração.
+3. **Scripting and Programming** 💻
+   - Scripting and programming for automation in penetration testing.
 
 4. **CTF Player** 🏆
-   - Desafios Capture The Flag para aprimorar habilidades práticas.
+   - Capture The Flag challenges to enhance practical skills.
 
 5. **Open Source Intelligence** 🔍
-   - Coleta de inteligência de fontes publicamente disponíveis.
+   - Collection of intelligence from publicly available sources.
 
-6. **Análise de Vulnerabilidades** 🛡️
-   - Identificação e análise de vulnerabilidades em sistemas.
+6. **Vulnerability Analysis** 🛡️
+   - Identification and analysis of vulnerabilities in systems.
 
-7. **Password Cracker e Internal Assessment** 🔐
-   - Técnicas de quebra de senhas e metodologias de avaliação interna.
+7. **Password Cracker and Internal Assessment** 🔐
+   - Password cracking techniques and internal assessment methodologies.
 
-8. **Encontrar Vulnerabilidades** 🕵️
-   - Técnicas para descobrir e explorar vulnerabilidades.
+8. **Finding Vulnerabilities** 🕵️
+   - Techniques to discover and exploit vulnerabilities.
 
 9. **Web Hacking** 🌐💻
-   - Exploração de vulnerabilidades comuns na web e segurança de aplicações web.
+   - Exploration of common web vulnerabilities and web application security.
 
-10. **Pós Exploração e Engenharia Social** 🕶️🤖
-    - Estratégias de pós-exploração e compreensão da engenharia social.
+10. **Post Exploitation and Social Engineering** 🕶️🤖
+    - Post-exploitation strategies and understanding social engineering.
 
-### 🌐 Vamos Conectar!
+## 🌐 Let's Connect!
 
-Sinta-se à vontade para se conectar para discussões, contribuições ou para compartilhar suas experiências.
+Feel free to connect for discussions, contributions, or to share your experiences.
 
-### 🚨 Aviso Legal
+## 🚨 Legal Disclaimer
 
-Este repositório é apenas para fins educacionais. Sempre obtenha autorização adequada antes de realizar atividades de testes de penetração em sistemas.
+This repository is for educational purposes only. Always obtain proper authorization before engaging in penetration testing activities on systems.
 
-### 📚 Boa Jornada de Aprendizado! 🚀💻💡
+## 📚 Have a Great Learning Journey! 🚀💻💡
