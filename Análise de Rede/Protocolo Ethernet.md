@@ -2,7 +2,7 @@
 O protocolo ethernet atua na camada 2 do modelo OSI e é responsável por
 encapsular o protocolo IP em redes locais.
 
-![Estrutura do Protocolo Ethernet](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/EstruturaEthernet.png)
+![Estrutura do Protocolo Ethernet](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20Ethernet/EstruturaEthernet.png)
 
 **Mac de Destino:** Endereço físico da placa de rede de destino
 
@@ -16,7 +16,7 @@ encapsular o protocolo IP em redes locais.
 
 ## 🦈 Exemplo de Protocolo Ethernet com Wireshark
 
-![Exemplo de Protocolo Ethernet com Wireshark](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/Ex%20Ethernet%20Wireshark.png)
+![Exemplo de Protocolo Ethernet com Wireshark](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20Ethernet/Ex%20Ethernet%20Wireshark.png)
 
 **Detalhes do Pacote Ethernet:**
 
