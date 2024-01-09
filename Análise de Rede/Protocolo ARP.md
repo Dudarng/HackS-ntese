@@ -13,19 +13,19 @@ O host receptor armazena temporariamente o IP e MAC recebidos.
     macOS: arp -a
 
 ## Estrutura do Protocolo ARP
-![Estrutura do Protocolo ARP](https://raw.githubusercontent.com/Dudarng/HackS-ntese/main/An%C3%A1lise%20de%20Rede/Assets/EstruturaARP1.png)
+![Estrutura do Protocolo ARP](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20ARP/EstruturaARP1.png)
 - Largura total: 4 bytes
     - Endereço MAC: 6 bytes
     - Endereço IP: 4 bytes
 
 ## Estrutura do Protocolo ARP (Visualização)
-![Estrutura do Protocolo ARP (Visualização)](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/EstruturaARP2.png)
+![Estrutura do Protocolo ARP (Visualização)](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20ARP/EstruturaARP2.png)
 
 ## Estrutura do Protocolo ARP Preenchida
-![Estrutura do Protocolo ARP Preenchida](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/EstruturaARPPRE.png)
+![Estrutura do Protocolo ARP Preenchida](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20ARP/EstruturaARPPRE.png)
 
 ## Protocolo ARP na Prática com Wireshark 🦈
-![Protocolo ARP na Prática com Wireshark](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/EstruturaARPwireshark.jpg)
+![Protocolo ARP na Prática com Wireshark](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20ARP/EstruturaARPwireshark.jpg)
 
 ## ARP Request na prática
 
