@@ -9,13 +9,13 @@ Para confiabilidade, associamos o protocolo IP ao TCP. Para velocidade, associam
 
 ## Estrutura do Protocolo IP 🧱
 
-![Estrutura IP](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/EstruturaIP.png)
+![Estrutura IP](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/EstruturaIP.png)
 
 ***Header IP***
 
 ## Exemplo Prático com Wireshark 🚀
 
-![Exemplo Wireshark](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/EstrturaIPWire.png)
+![Exemplo Wireshark](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/EstrturaIPWire.png)
 
 - **Total Length:** Tamanho total do pacote (fragmentado se for maior que 1500)
 - **Identification:** Controle para pacotes fragmentados
@@ -47,10 +47,10 @@ Um frame ethernet tem um limite de 1500 bytes em seu payload. Quando um pacote I
 Suponhamos que nosso host cliente envie um ping para o host servidor com um pacote de 4000 bytes.
 
 ### Detalhes da Rede 🖥️
-![Pacotes na Rede](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/PingPacote.png)
+![Pacotes na Rede](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/PingPacote.png)
 
 ### Primeiro Pacote 📦
-![Primeiro Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Pacote1.png)
+![Primeiro Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/Pacote1.png)
 - **Header IP:** 20 bytes
 - **Tamanho do Pacote IP:** 1500 bytes
 - **Identification:** 47706
@@ -59,14 +59,14 @@ Suponhamos que nosso host cliente envie um ping para o host servidor com um paco
 - **Dados:** 1480 bytes
 
 ### Segundo Pacote 📦
-![Segundo Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Pacote2.png)
+![Segundo Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/Pacote2.png)
 - **Tamanho Total:** 1500 bytes
 - **Identification:** 47706 (mesmo do primeiro)
 - **Flags:** MF (More Fragments)
 - **Fragment Offset:** 185
 
 ### Terceiro Pacote 📦
-![Terceiro Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Pacote3.png)
+![Terceiro Pacote](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20IP/Pacote3.png)
 - **Tamanho Total:** 1068 bytes
 - **Identification:** 47706 (igual aos anteriores)
 - **Flags:** Sem Flags (Final do Fragmento)
