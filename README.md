@@ -12,7 +12,7 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
 2. **[Análise de Rede](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
    - Técnicas e metodologias de análise de rede.
 
-3. **Script e Programação** 💻
+3. **[Script e Programação](https://github.com/Dudarng/HackS-ntese/tree/main/Script%20e%20Programação)** 💻
    - Scripting e programação para automação no campo de testes de penetração.
 
 4. **CTF Player** 🏆
