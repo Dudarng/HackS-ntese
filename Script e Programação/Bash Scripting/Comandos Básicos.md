@@ -113,7 +113,7 @@ Exemplo de uso:
 #!/bin/bash
 if [ "$1" == "" ]; then
     echo "Modo de uso: $0 IP PORTA"
-    echo "Exemplo: ./script.sh 192.168.0.1 80"
+    echo "Exemplo: $0 192.168.0.1 80"
 else
     echo "Explorando o host: $1 na porta: $2:"
 fi
