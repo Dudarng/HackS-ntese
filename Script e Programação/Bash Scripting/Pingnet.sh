@@ -1,6 +1,7 @@
 #!/bin/bash
 #O script abaixo faz uma varredura por hosts na rede.
-if [ "$1" == "" ]; then
+if [ "$1" == "" ]; 
+then
     echo "PING SWEEP"
     echo "Modo de uso: $0 REDE"
     echo "Exemplo: $0 192.168.0"
