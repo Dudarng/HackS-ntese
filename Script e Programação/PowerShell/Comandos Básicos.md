@@ -1,44 +1,42 @@
-# Introdução a PowerShell
-O ***PowerShell*** possui a propria IDE chamada de Windows PowerShell ISE, nela fica mais simples de executar e entender o código.
-É uma linguagem muito parecida com *bash*.
-### Comandos para transmissão de mensagem na tela:
-  - `echo`
-  - `Write Host`
-  - `Write-Output`
-Ex: `echo + "Mensagem para exibir"`
+# Introdução a PowerShell 💻
 
-### Como criar script em PowerShell 
-Podemos criar scripts usando o *Bloco de notas* (**notepad**), usando o seguinte comando.
-`notepad + nomedoarquivo.ps1` -> sendo `.ps1` a extensão padrão do *PowerShell*.
-Apos a execução cria-se o arquivo na area de trabalho.
+O **PowerShell** é uma poderosa linguagem de script da Microsoft, com sua própria IDE conhecida como Windows PowerShell ISE, tornando a execução e compreensão do código mais simples. É bastante semelhante ao *bash*.
 
-Para executar o script usamos o `.\nomedoarquivo.ps1`.
+### Comandos para exibição de mensagens na tela 📢:
+- `echo`
+- `Write Host`
+- `Write-Output`
 
-`#` -> Para criar comantario do código.
+Exemplo: 
+```powershell
+echo "Mensagem para exibir"
+```
 
-`get-location` ou `pwd`-> Exibe o caminho atual em que estou.
+### Como criar scripts em PowerShell 📝
+Você pode criar scripts utilizando o *Bloco de notas* (**notepad**), com o seguinte comando:
+```powershell
+notepad nomedoarquivo.ps1
+```
+onde `.ps1` é a extensão padrão do *PowerShell*. O arquivo será criado na área de trabalho.
 
-`whoami` -> Exibe o usuario que esta sendo utilizado.
+Para executar o script, utilize:
+```powershell
+.\nomedoarquivo.ps1
+```
 
-`$nomedavariavel = "conteudodavarivel"` -> Cria uma variavel.
-
-`ping` -> Envia pacote a determido endereço.
-
-  - `-n + quantidadedepacotes` -> Envia determinado numero de pacotes pro host.
-
-`|` -> Usar mais de um comando no terminal.
-
-`Select-String + "textoprocurado"` -> Filtra a saida do terminal por algo especifico (Similar ao `grep` no linux).
-
-- Ex: `ping -n 1 192.168.0.1 | Select-String "bytes-32"` -> O codigo vai "Pingar" o IP e retornar uma saida mais limpa, na qual contenha o "bytes=32" (significa uma maquina que retorna ping).
-
-`param` -> criação de parametros.
-
-`Read-host` -> Recebe entrada do usuario.
-
-  Ex: `$ip = Read-host "Digite o IP: "` -> Recebe do usuario uma entrada que é armazenada na variavel IP na qual foi criada junto.
-
-- Concatenação de textos:
-  `$(comando ou variavel a ser exibido)` -> concatena o código no proprio texto a ser exibido.
-
-  Ex: `echo "Meu diretorio atual: " $(get-location)` -> Exibe o texto junto com o conteúdo da variavel ou comando.
+Outras dicas úteis:
+- `#` é usado para comentários no código.
+- `get-location` ou `pwd` exibem o caminho atual.
+- `whoami` mostra o usuário atual.
+- `$nomedavariavel = "conteudodavarivel"` cria uma variável.
+- `ping` envia pacotes para um endereço.
+  - `-n` seguido de um número determina a quantidade de pacotes.
+- `|` é usado para encadear comandos no terminal.
+- `Select-String + "textoprocurado"` filtra a saída do terminal.
+  - Exemplo: `ping -n 1 192.168.0.1 | Select-String "bytes-32"` retorna apenas as linhas contendo "bytes=32".
+- `param` é usado para criar parâmetros.
+- `Read-host` recebe entrada do usuário.
+  - Exemplo: `$ip = Read-host "Digite o IP: "` recebe um IP do usuário.
+- Concatenação de texto:
+  `$(comando ou variável a ser exibido)` concatena o código no texto.
+  - Exemplo: `echo "Meu diretório atual: $(get-location)"` mostra o texto junto com o conteúdo da variável ou comando.
