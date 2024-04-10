@@ -4,16 +4,50 @@
 
 Bem-vindo ao meu repositório que documenta meus estudos em testes de penetração. Esta coleção está dividida em módulos distintos, cada um focado em um aspecto chave da área. Sinta-se à vontade para explorar e aprofundar seu entendimento em qualquer área específica.
 
-### 🚀 Módulos
+## 🚀 Módulos
 
 1. **[Introdução ao Pentest](https://github.com/Dudarng/HackS-ntese/tree/main/Introdução%20ao%20Pentest)** 🕵️‍♂️
-   - Conceitos e princípios fundamentais em testes de penetração.
+   - [Introdução à Segurança da Informação](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Introdu%C3%A7%C3%A3o%20%C3%A0%20Seguran%C3%A7a%20da%20Informa%C3%A7%C3%A3o.md)
+   - [Introdução ao Penetration Testing](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Introdu%C3%A7%C3%A3o%20ao%20Penetration%20Testing.md)
+   - [Carreira em Pentest](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Carreira.md)
+   - [Virtualização e Sistemas Operacionais](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Virtualiza%C3%A7%C3%A3o%20e%20Sistemas%20Operacionais.md)
+   - [Dominando o terminal Linux](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Dominando%20o%20terminal%20Linux.md)
+   - [Dominando o prompt do Windows](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Dominando%20o%20prompt%20do%20Windows.md)
+   - [Visão geral sobre WEB e HTTP](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Vis%C3%A3o%20geral%20sobre%20WEB%20e%20HTTP.md)
+   - [Análise de logs](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/An%C3%A1lise%20de%20logs.md)
+   - [Lab análise de log](https://github.com/Dudarng/HackS-ntese/blob/main/Introdu%C3%A7%C3%A3o%20ao%20Pentest/Lab%20an%C3%A1lise%20de%20log.md)
+     
 
 2. **[Análise de Rede](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
-   - Técnicas e metodologias de análise de rede.
+   - [Introdução a Redes](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Introdu%C3%A7%C3%A3o%20a%20Redes.md)
+   - [Noções básicas sobre o IPV4](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/No%C3%A7%C3%B5es%20b%C3%A1sicas%20sobre%20o%20IPV4.md)
+   - [Analisadores de Protocolos](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Analisadores%20de%20Protocolos.md)
+   - [Protocolo Ethernet](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20Ethernet.md)
+   - [Protocolo ARP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20ARP.md)
+   - [Protocolo IP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20IP.md)
+   - [Protocolo TCP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20TCP.md)
+   - [Protocolo UDP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20UDP.md)
+   - [Protocolo DNS](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20DNS.md)
+   - [Protocolo HTTP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20HTTP.md)
+   - [Protocolo ICMP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20ICMP.md)
+   - [Bytes na Rede](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Bytes%20na%20Rede.md)
 
 3. **[Script e Programação](https://github.com/Dudarng/HackS-ntese/tree/main/Script%20e%20Programação)** 💻
-   - Scripting e programação para automação no campo de testes de penetração.
+
+
+   **3.1 [Bash Script](https://github.com/Dudarng/HackS-ntese/tree/main/Script%20e%20Programa%C3%A7%C3%A3o/Bash%20Scripting) :**
+      - [Comandos Básicos](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Bash%20Scripting/Comandos%20B%C3%A1sicos.md)
+      - [Pingnet](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Bash%20Scripting/Pingnet%20Simples.sh)
+      - [PortScan](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Bash%20Scripting/Portscan%20Simples.sh)
+      - [Parsing HTML](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Bash%20Scripting/ParsingHTML.sh)
+   
+   **3.2 [PowerShell](https://github.com/Dudarng/HackS-ntese/tree/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell) :**
+      - [Comandos Básicos](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Comandos%20B%C3%A1sicos.md)
+      - [Condições e Repetições](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Condi%C3%A7%C3%B5es%20e%20Repeti%C3%A7%C3%B5es.md)
+      - [Ping Sweep](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Ping%20Sweep.ps1)
+      - [PortScan](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Portscan.ps1)
+      - [Web com Powershell](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Web%20com%20Powershell.md)
+      
 
 4. **CTF Player** 🏆
    - Desafios Capture The Flag para aprimorar habilidades práticas.
@@ -35,11 +69,8 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
 
 10. **Pós Exploração e Engenharia Social** 🕶️🤖
     - Estratégias de pós-exploração e compreensão da engenharia social.
-
-### 🌐 Vamos Conectar!
-
-Sinta-se à vontade para se conectar para discussões, contribuições ou para compartilhar suas experiências.
-### 📚 Bibliografia
+      
+## 📚 Bibliografia
 
 Aqui estão os livros que li e utilizei como referência para desenvolver o conteúdo deste repositório:
 
@@ -49,6 +80,10 @@ Aqui estão os livros que li e utilizei como referência para desenvolver o cont
 
 
 Sinta-se à vontade para explorar esses livros para uma compreensão mais aprofundada dos conceitos abordados neste repositório.
+
+### 🌐 Vamos Conectar!
+
+Sinta-se à vontade para se conectar para discussões, contribuições ou para compartilhar suas experiências.
 
 ### 🚨 Aviso Legal
 
