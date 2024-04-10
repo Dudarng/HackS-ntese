@@ -53,25 +53,25 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
       - [DNS Bruteforce](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Python/DNS%20Bruteforce.py)
       
 
-5. **CTF Player** 🏆
+4. **CTF Player** 🏆
    - Desafios Capture The Flag para aprimorar habilidades práticas.
 
-6. **Open Source Intelligence** 🔍
+5. **Open Source Intelligence** 🔍
    - Coleta de inteligência de fontes publicamente disponíveis.
 
-7. **Análise de Vulnerabilidades** 🛡️
+6. **Análise de Vulnerabilidades** 🛡️
    - Identificação e análise de vulnerabilidades em sistemas.
 
-8. **Password Cracker e Internal Assessment** 🔐
+7. **Password Cracker e Internal Assessment** 🔐
    - Técnicas de quebra de senhas e metodologias de avaliação interna.
 
-9. **Encontrar Vulnerabilidades** 🕵️
+8. **Encontrar Vulnerabilidades** 🕵️
    - Técnicas para descobrir e explorar vulnerabilidades.
 
-10. **Web Hacking** 🌐💻
+9. **Web Hacking** 🌐💻
    - Exploração de vulnerabilidades comuns na web e segurança de aplicações web.
 
-11. **Pós Exploração e Engenharia Social** 🕶️🤖
+10. **Pós Exploração e Engenharia Social** 🕶️🤖
     - Estratégias de pós-exploração e compreensão da engenharia social.
       
 ## 📚 Bibliografia
