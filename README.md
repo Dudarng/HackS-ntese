@@ -47,27 +47,31 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
       - [Ping Sweep](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Ping%20Sweep.ps1)
       - [PortScan](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Portscan.ps1)
       - [Web com Powershell](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/PowerShell/Web%20com%20Powershell.md)
+   
+   **3.3 [Python](https://github.com/Dudarng/HackS-ntese/tree/main/Script%20e%20Programa%C3%A7%C3%A3o/Python) :**
+      - [PortScan](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Python/PortScan.py)
+      - [DNS Bruteforce](https://github.com/Dudarng/HackS-ntese/blob/main/Script%20e%20Programa%C3%A7%C3%A3o/Python/DNS%20Bruteforce.py)
       
 
-4. **CTF Player** 🏆
+5. **CTF Player** 🏆
    - Desafios Capture The Flag para aprimorar habilidades práticas.
 
-5. **Open Source Intelligence** 🔍
+6. **Open Source Intelligence** 🔍
    - Coleta de inteligência de fontes publicamente disponíveis.
 
-6. **Análise de Vulnerabilidades** 🛡️
+7. **Análise de Vulnerabilidades** 🛡️
    - Identificação e análise de vulnerabilidades em sistemas.
 
-7. **Password Cracker e Internal Assessment** 🔐
+8. **Password Cracker e Internal Assessment** 🔐
    - Técnicas de quebra de senhas e metodologias de avaliação interna.
 
-8. **Encontrar Vulnerabilidades** 🕵️
+9. **Encontrar Vulnerabilidades** 🕵️
    - Técnicas para descobrir e explorar vulnerabilidades.
 
-9. **Web Hacking** 🌐💻
+10. **Web Hacking** 🌐💻
    - Exploração de vulnerabilidades comuns na web e segurança de aplicações web.
 
-10. **Pós Exploração e Engenharia Social** 🕶️🤖
+11. **Pós Exploração e Engenharia Social** 🕶️🤖
     - Estratégias de pós-exploração e compreensão da engenharia social.
       
 ## 📚 Bibliografia
