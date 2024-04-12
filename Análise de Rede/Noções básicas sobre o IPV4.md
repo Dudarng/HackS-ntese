@@ -111,3 +111,29 @@ As classes A, B e C não usados para enumerar máquinas na rede A. a classe D co
 - Classe B: 255.255.0.0
 - Classe C: 255.255.255.0
 - Classe D: 255.255.255.255
+
+## Endereços IPV4 especiais
+
+Alguns endereços IPV4 são considerados especiais ou seja destinados a uso específico.
+
+### Endereço de rede e de broadcast
+
+Em uma rede o primeiro endereço possível é o endereço de rede. O ultimo endereço possivel chama-se endereço de broadcast.
+
+**Exemplo:**
+
+![Endereço Broadcast](https://lh4.googleusercontent.com/a7CM732sy-U_QIVmo5A46CNAZpRN0sqQiKiB7P8oUeaxpEm_ziQ9k8lzAEyqQoBcRFNMtS5ArmumYmyCQ81vRUjtQUtJu9co1LyuAvlDTiP5qrVEUg7HtJtgUPHXKYKu_ib0uh9_)
+
+O calculo é feito da seguinte maneira digamos que:
+
+**IP**: `203.0.113.170`
+
+**Máscara**: `255.255.255.248`
+
+Convertendo o último octeto temos:
+
+**IP**: `10101010`
+
+**MR**: `11111000`
+
+Logo descobrimos que a rede é 10101 completando com 000 temos o endereço de rede = 168, já quando completamos 111 temos o o maior endereço possivel (broadcast) 175.
