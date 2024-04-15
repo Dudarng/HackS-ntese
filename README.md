@@ -21,6 +21,7 @@ Bem-vindo ao meu repositório que documenta meus estudos em testes de penetraç�
 2. **[Análise de Rede](https://github.com/Dudarng/HackS-ntese/tree/main/Análise%20de%20Rede)** 🌐
    - [Introdução a Redes](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Introdu%C3%A7%C3%A3o%20a%20Redes.md)
    - [Noções básicas sobre o IPV4](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/No%C3%A7%C3%B5es%20b%C3%A1sicas%20sobre%20o%20IPV4.md)
+   - [Noções básicas sobre o IPV6](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/No%C3%A7%C3%B5es%20b%C3%A1sicas%20sobre%20o%20IPV6.md)
    - [Analisadores de Protocolos](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Analisadores%20de%20Protocolos.md)
    - [Protocolo Ethernet](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20Ethernet.md)
    - [Protocolo ARP](https://github.com/Dudarng/HackS-ntese/blob/main/An%C3%A1lise%20de%20Rede/Protocolo%20ARP.md)
