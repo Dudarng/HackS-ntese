@@ -137,3 +137,9 @@ Convertendo o último octeto temos:
 **MR**: `11111000`
 
 Logo descobrimos que a rede é 10101 completando com 000 temos o endereço de rede = 168, já quando completamos 111 temos o o maior endereço possivel (broadcast) 175.
+
+### Esta Rede e Esta Máquina
+
+É um conceito abstrato de referenciar a máquina do usuario e rede do usuario em sua maioria apenas uma ideia que representa todas as redes com as quais a máquina possui conectividade.
+
+### Rede Loopback
