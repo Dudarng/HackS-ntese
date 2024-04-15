@@ -112,34 +112,56 @@ As classes A, B e C não usados para enumerar máquinas na rede A. a classe D co
 - Classe C: 255.255.255.0
 - Classe D: 255.255.255.255
 
-## Endereços IPV4 especiais
+## 🌐 Endereços IPV4 especiais
 
-Alguns endereços IPV4 são considerados especiais ou seja destinados a uso específico.
+Alguns endereços IPV4 são considerados especiais, destinados a usos específicos.
 
-### Endereço de rede e de broadcast
+### 🎈 Endereço de rede e de broadcast
 
-Em uma rede o primeiro endereço possível é o endereço de rede. O ultimo endereço possivel chama-se endereço de broadcast.
+Em uma rede, o primeiro endereço possível é o endereço de rede. O último endereço possível chama-se endereço de broadcast.
 
 **Exemplo:**
 
 ![Endereço Broadcast](https://lh4.googleusercontent.com/a7CM732sy-U_QIVmo5A46CNAZpRN0sqQiKiB7P8oUeaxpEm_ziQ9k8lzAEyqQoBcRFNMtS5ArmumYmyCQ81vRUjtQUtJu9co1LyuAvlDTiP5qrVEUg7HtJtgUPHXKYKu_ib0uh9_)
 
-O calculo é feito da seguinte maneira digamos que:
+O cálculo é feito da seguinte maneira: digamos que:
 
 **IP**: `203.0.113.170`
 
 **Máscara**: `255.255.255.248`
 
-Convertendo o último octeto temos:
+Convertendo o último octeto, temos:
 
 **IP**: `10101010`
 
 **MR**: `11111000`
 
-Logo descobrimos que a rede é 10101 completando com 000 temos o endereço de rede = 168, já quando completamos 111 temos o o maior endereço possivel (broadcast) 175.
+Logo descobrimos que a rede é 10101. Completando com 000, temos o endereço de rede = 168. Quando completamos com 111, temos o maior endereço possível (broadcast) = 175.
 
-### Esta Rede e Esta Máquina
+### 🖥️ Esta Rede e Esta Máquina
 
-É um conceito abstrato de referenciar a máquina do usuario e rede do usuario em sua maioria apenas uma ideia que representa todas as redes com as quais a máquina possui conectividade.
+É um conceito abstrato de referenciar a máquina do usuário e a rede do usuário, em sua maioria, apenas uma ideia que representa todas as redes com as quais a máquina possui conectividade.
 
-### Rede Loopback
+### 🔄 Rede Loopback
+
+- Só responde à própria máquina.
+- Existirá em toda máquina que possua rede, pois é um processo interno do kernel do sistema operacional.
+- Todos os endereços de loopback podem ser acessados pela máquina local.
+
+No Linux, podemos usar o comando `ifconfig` (`ipconfig` no Windows) para mostrar as configurações de rede.
+
+![ifconfig](https://upload.wikimedia.org/wikipedia/commons/e/e9/Ifconfig_2008.png)
+
+No caso acima, é possível observar uma placa de rede padrão `eth1` e uma `lo`, que é o loopback, ou seja, a máquina em questão responde ao mesmo tempo pelos endereços `192.168.1.2` e por `127.0.0.1`. Contudo, outras máquinas só enxergarão o endereço `192.168.1.2`.
+
+### 🔄 Loopback x Esta máquina
+
+A diferença básica entre os endereços `0.0.0.0` e `127.0.0.1` é que `0.0.0.0` é uma abstração, enquanto `127.0.0.1` é um endereço utilizável.
+
+**Importante** ressaltar que caso o cabo de rede esteja desconectado, haveria a mesma resposta, visto que, como já dito anteriormente, o endereço `127.0.0.1` é interno, ou seja, é gerado por um kernel e não uma placa de rede.
+
+Toda rede `127.0.0.1/8` é loopback, logo, qualquer de seus endereços deve responder localmente.
+
+**O que aconteceria se pingássemos o IP `0.0.0.0`?**
+
+Como o IP `0.0.0.0` representa esta máquina, ele reverte para `127.0.0.1`, que é o IP local da máquina, já que `0.0.0.0` é apenas uma abstração.
