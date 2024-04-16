@@ -53,3 +53,37 @@ Nosso host cliente acessa [blog.grupobusinesscorp.com](http://blog.grupobusiness
 ![Three-Way Handshake](https://github.com/Dudarng/HackS-ntese/blob/main/Análise%20de%20Rede/Assets/Protocolo%20DNS/Conexão%20DNS%20estabelecida.png)
 
 Assim, a conexão é estabelecida após a obtenção do endereço IP do site, possibilitando a interação via "three-way handshake". 🤝
+
+---
+
+# **Protocolo DHCP** 🌐 
+
+O *Dynamic Host Configuration Protocol* (DHCP) é um serviço que fornece dados de uma rede para que um cliente possa participar da mesma.
+
+
+### 📝 Dados que podem ser fornecidos:
+
+- Endereço IP
+- Máscara de rede
+- Endereço IP do roteador de rede (gateway)
+- Endereços IP dos servidores DNS da rede
+- Data e hora atualizadas
+- Outros
+
+
+O funcionamento do serviço DHCP é simples:
+
+![Funcionamento do DHCP](https://secbitrez.files.wordpress.com/2018/10/9-dhcp.png)
+
+1. **Solicitação**: Quando um dispositivo se conecta à rede, ele envia uma solicitação de configuração DHCP na porta UDP 67.
+
+2. **Atribuição de endereço IP**: O servidor DHCP recebe essa solicitação, seleciona um endereço IP disponível e o envia de volta ao dispositivo na porta UDP 68.
+
+3. **Configurações adicionais**: Além do endereço IP, o servidor DHCP também pode fornecer informações como gateway padrão, servidor DNS, etc.
+
+4. **Renovação**: O dispositivo precisa renovar sua configuração DHCP antes que o tempo de concessão do endereço IP expire.
+
+5. **Liberação**: Quando o dispositivo deixa a rede, ele libera o endereço IP, tornando-o disponível novamente.
+
+
+Essencialmente, o DHCP simplifica a configuração de rede, automatizando a atribuição de endereços IP e outras configurações, utilizando a comunicação através das portas UDP 67 e 68.
